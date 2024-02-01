@@ -41,7 +41,7 @@ app.post("/save_order", async (req, res) => {
 
 //List orders
 app.get("/", async (req, res) => {
-    return res.json("hello world");
+    return res.json("hello world!");
 })
 
 app.get("/orders", async (req, res) => {
